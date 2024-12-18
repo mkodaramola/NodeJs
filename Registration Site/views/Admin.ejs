@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	<style type="text/css">
+		table{
+			border-color: #FFF;
+		}
+    body{
+      background-color: #444;
+      color: #FFF;
+    }
+	</style>
+</head>
+<body>
+
+	<h1 style="text-decoration:underline;">Admin Info</h1>
+
+	<ul style="font-size:20px;">
+			<li>Name: <%= doc.a.name%></li>
+			<li>Username: <%= doc.a.username%></li>
+			<li>Password: <%= doc.a.password%></li>
+			<li>Position: <%= doc.p%></li>
+
+	</ul>
+
+	<% if(doc.p === "Master"){ %>
+
+			<a href="/addmember"><input type="button" value="Add Member"></a>
+			<br><br>
+			<a href="/deletemember"><input type="button" value="Delete Member"></a>
+
+
+		<% }%>
+
+
+
+  <h1 style="text-decoration:underline;">Registration Data Analysis</h1>
+
+  <div class="">
+    <h3>Number of Registered Candidate: <%= doc.n%></h3>
+  </div>
+
+	<table border="3px" link="white">
+
+		<tr>
+			<td>S/N</td>
+			<td>Surname</td>
+      <td>First name</td>
+			<td>Age</td>
+			<td>Email</td>
+			<td>Telephone</td>
+			<td>Date of Birth</td>
+			<td>Location</td>
+
+		</tr>
+    <% let num = doc.n %>
+      <% let arr = ["surname","firstname","age","email","tel","dob","location"]; %>
+    <% for(let i=1;i<num+1;i++){ %>
+    <tr>
+				<td><%= i%></td>
+        <% for(let j=0;j<7;j++){ %>
+          <td>
+            <%let cand = "cand"+i %>
+            <%= doc.d[cand][arr[j]] %>
+          </td>
+        <% }%>
+
+     </tr>
+    <% }%>
+
+
+	</table>
+
+
+</body>
+</html>

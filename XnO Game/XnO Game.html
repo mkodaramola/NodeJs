@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XnO</title>
+
+	<script type="text/javascript" src="XnO_JS.js"></script>
+
+
+	<style type="text/css">
+		
+		.heading {
+			font-family: cursive; 
+			color: white; 
+			font-size: 50px;
+
+		}
+		.div1 {
+
+			font-size: 20px;
+			text-align: left;
+		}
+
+		.div2 {
+
+			font-size: 20px;
+			text-align: right;
+		}
+
+	</style>
+
+
+</head>
+<body style="background-image: url(xnoBg.jpg); color: white; ">
+
+<h1 class="heading" style="">T<span style="text-decoration: underline; border-bottom: 1px solid white;">he <i style="color: blue;">X</i> 'n' <i style="color: red;">O</i> <i>Game</i> &nbsp&nbsp&nbsp&nbsp</span></h1>
+
+<div class="div1">
+	
+	Player 1(X)
+	<br><br>
+	Player's Name: <input type="text" placeholder="Enter Player1's Name" id="p1Name">
+
+</div>
+<div style="text-align: center; font-size: 3em; color: white; ">
+		<i>VS</i>
+</div>
+<div class="div2">
+
+	Player 2 (O) <select id="p2sel" onchange="ShowP2Name()">
+		
+		<option value="comp" selected>Computer</option>
+		<option value="p2">Player 2</option>
+	</select>
+	<br><br>
+	<span style="visibility: hidden;" id="p2nm">Player's Name:<input type="text" id="p2Name"></span>
+
+</div>
+
+<div class="div3" style="text-align: center; margin-top: 10em;">
+
+
+	<a href="StartGame.html" ><button style="visibility: visible;" id="compBut" onclick="gotoGame()">Start Game</button></a><br>
+	<a href="StartGameP.html" ><button style="visibility: hidden;" id="playerBut" onclick="gotoGame()">Start Game</button></a>
+
+</div>
+
+	<h1 id="p1Side"></h1>
+	<h2 id="p2Side"></h2>
+
+</body>
+</html>

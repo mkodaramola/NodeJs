@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slide</title>
+</head>
+<script type="text/javascript">
+	var img = [];
+	img[0] = "s1.jpg";
+	img[1] = "s2.jpg";
+	img[2] = "s3.jpg";
+	var i =0;
+
+	function chImg(){
+
+		document.slide.src = img[i];
+
+		i++;
+
+		if(i > 2) i=0;
+	}
+
+	setInterval(chImg,3000);
+
+	window.onload = chImg;
+
+</script>
+
+<style type="text/css">
+	.sld{
+		margin:8%;
+	}
+	img{
+		width: 100%;
+		height: 400px;
+	}
+</style>
+<body>
+
+	<div class="sld">
+		
+		<img name="slide">
+
+	</div>
+
+</body>
+</html>

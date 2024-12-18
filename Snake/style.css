@@ -1,0 +1,16 @@
+.container{
+	border:1px solid black;
+	width: 85%;
+	height: 600px;
+	margin-left: 8%;
+	margin-top: 5%;
+
+}
+
+div div{
+	position: relative;
+	background: red;
+	width: 1.5%;
+	height: 2%;
+	border: 1px solid red;
+}

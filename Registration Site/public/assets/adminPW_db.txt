@@ -1,0 +1,1 @@
+{"Admin1":{"name":"Daramola","username":"Oluwafemi","password":"oluwafemi","Cpassword":"oluwafemi","gender":"Male","status":"master"},"Admin2":{"name":"Adu","username":"Iyanu","password":"iyanu","Cpassword":"iyanu","gender":"Male","status":"regular"}}

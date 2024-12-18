@@ -1,0 +1,6 @@
+Name: Adu Iyanuoluwa
+School: FUTA
+Dept: EEE
+Gender: Male
+Religion: Christian
+Level: 200 

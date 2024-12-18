@@ -1,0 +1,15 @@
+.container{
+	border:1px solid black;
+	width: 1000px;
+	height: 700px;
+	margin-left: 15%;
+	margin-top: 5%;
+
+}
+
+#snake{
+	position: relative;
+	background: red;
+	
+	border: 1px solid red;
+}

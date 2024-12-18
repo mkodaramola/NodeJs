@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<script type="text/javascript" src="/assets/script.js"></script>
+  <style>
+    body{
+
+    background-color: #444;
+    color: #FFF;
+
+  }
+  h1{
+    text-decoration: underline;
+  }
+
+  </style>
+</head>
+<body>
+	<h1>Registeration</h1><h1 id="succ"></h1>
+
+	<form id="rform" method="post">
+
+    <label>Surname: </label><br>
+  <input type="text" name="surname" placeholder="Enter Surname" id="isname" required>
+  <br><br>
+  <label>First name: </label><br>
+<input type="text" name="firstname" placeholder="Enter First name" id="ifname" required>
+<br><br>
+  <label>Age: </label><br>
+  <input type="number" name="age" placeholder="Enter Age" id="iage" required>
+  <br><br>
+
+  <label>Email: </label><br>
+  <input type="email" name="email" placeholder="Enter Email" id="iemail">
+  <br><br>
+
+  <label>Telephone: </label><br>
+  <input type="text" name="telephone" placeholder="Enter Telephone" id="itel">
+  <br><br>
+
+  <label>Date of Birth: </label><br>
+  <input type="date" name="dob"  id="idob">
+  <br><br>
+
+  <label>Present State/City: </label><br>
+  <input type="text" name="state" placeholder="Enter State/City" id="isc">
+  <br><br>
+
+<input type="submit" name="" value="Submit"> <br><br>
+
+ <span style="color:#FFF; "><%= Rs.Rs%></span>
+	</form>
+
+</body>
+</html>

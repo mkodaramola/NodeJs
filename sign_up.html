@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signUp</title>
+		<style type="text/css">
+		body{
+			background-color: #5AF;
+
+		}
+		.navigation{
+			font-size: 20px;
+		}
+		input{
+			position: absolute;
+			left: 8%;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="femosky">Profile</h1>
+	<form>
+		<div class="navigation">
+		Name: <input type="text" name="" id="name"><br><br>
+		Level: <input type="text" name="" id="lv"><br><br>
+		Department: <input type="text" id="dp" name=""><br><br>
+		<button id="subm">Submit</button>
+		</div>
+
+	</form>
+<script type="text/javascript">
+	
+	function go(){
+
+		var name = document.getElementById('name').value;
+		var lvl = document.getElementById('lv').value;
+		var dp = document.getElementById('dp').value;
+
+		window.open("http://127.0.0.1:3000/profile/"+name+"/"+lvl+"/"+dp);
+
+	}
+
+	 document.querySelector('#subm').addEventListener("click",go);
+
+</script>
+
+</body>
+</html>

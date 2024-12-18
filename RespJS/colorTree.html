@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Colour_three</title>
+
+	<script type="text/javascript">
+		
+		document.addEventListener('DOMContentLoaded', () => {
+
+			document.querySelector('#colourChange').onchange = function() {
+				document.querySelector('#hello').style.color = this.value;
+			};
+		});
+
+	</script>
+
+</head>
+<body>
+
+	<h1 id="hello">WHAT IS YOUR FAVOURITE COLOUR</h1>
+
+	<select id="colourChange">
+		<option value="black">BLACK</option>
+		<option value="green">Green</option>
+		<option value="yellow">Yellow</option>
+		<option value="tomato">Tomato</option>
+		<option value="cyan">Cyan</option>
+		<option value="white">White</option>
+		<option value="purple">Purple</option>
+	</select>
+
+</body>
+</html>

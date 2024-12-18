@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script type="text/javascript" src="/assets/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="/assets/script.js"></script>
+</head>
+<body>
+	<h1>Registeration</h1><h1 id="succ"></h1>
+
+	<form id="rform" method="post" enctype="multipart/form-data">
+
+		<label>Name: </label>
+
+		<input type="text" name="name" placeholder="Enter name" id="iname" required>
+		<br><br>
+		<label>Age: </label>
+		<input type="number" name="age" placeholder="Enter Age" id="iage" required>
+		<br><br>
+
+		<label>Email: </label>
+		<input type="email" name="email" placeholder="Enter Email" id="iemail">
+		<br><br>
+
+		<label>Telephone: </label>
+		<input type="text" name="telephone" placeholder="Enter Telephone" id="itel">
+		<br><br>
+
+		<label>Username: </label>
+		<input type="text" name="username" placeholder="Enter Username" required id="iusern">
+		<br><br>
+
+		<label>Password: </label>
+		<input type="password" name="password" placeholder="Enter password" required id="ipw">
+		<br><br>
+
+		<label>Confirm password: </label>
+		<input type="password" name="cpassword" placeholder="Confirm password" required id="icpw">
+		<br><br>
+		<label>Upload Image: </label>
+		<input type="file" name="image" id="file" >
+		<br><br>
+
+		<input type="submit" name="" id="isubmit">
+	</form>
+
+</body>
+</html>

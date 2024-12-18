@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XnOGame</title>
+		<script type="text/javascript" src="XnO_JS.js"></script>
+		
+</head>
+<body style="color: white; background-image: url(sbg.jpg); background-size: 90em;" onload="shuffle();setStart();dcp();">
+	
+	<div style="padding-left: 20px; padding-right: 20px">
+		<div style="float: left;">
+			<h2 style="font-size: 50px;" id="p1Side"></h2><h2 style="font-size: 50px;">(X)</h2>
+		</div>
+
+		<div style="float: right;">
+			<h2 style="font-size: 50px;"  id="p2Side"></h2><h2 style="font-size: 50px;">(O)</h2>
+		</div>
+
+	</div>
+	<center><div style="float: center; padding-top: 20%" >
+			<table cellpadding="10px">
+				
+				<tr>
+					
+					<td>
+						<textarea onkeyup="BoldCase(id); box1(); checkWin();"  onkeydown=""    name="11" onblur="unedit11()" id="11" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box2(); checkWin();" onkeydown="" name="12" onblur="unedit12()" id="12" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box3(); checkWin();" onkeydown="" name="13" onblur="unedit13()" id="13" rows="2" cols="3"></textarea>
+					</td>
+
+				</tr>
+
+				<tr>
+					
+					<td>
+						<textarea onkeyup="BoldCase(id); box4(); checkWin();" onkeydown="" id="21" onblur="unedit21()" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box5(); checkWin();" onkeydown=""  id="22" onblur="unedit22()" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box6(); checkWin();" onkeydown="" id="23" onblur="unedit23()" rows="2" cols="3"></textarea>
+					</td>
+
+				</tr>
+
+
+				<tr>
+					
+					<td>
+						<textarea onkeyup="BoldCase(id); box7(); checkWin();" onkeydown="" id="31" onblur="unedit31()" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box8(); checkWin();" onkeydown="" id="32" onblur="unedit32()" rows="2" cols="3"></textarea>
+					</td>
+
+					<td>
+						<textarea onkeyup="BoldCase(id); box9(); checkWin();" onkeydown="" id="33" onblur="unedit33()" rows="2" cols="3"></textarea>
+					</td>
+
+				</tr>
+
+			</table>
+
+		</div>
+	</center>
+
+<h1 id="aa"></h1>
+</body>
+</html>

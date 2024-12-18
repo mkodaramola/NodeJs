@@ -1,0 +1,102 @@
+body{
+	background: rgba(0, 0, 0, 0.8);
+	color: #FFF;
+
+}
+h1{
+	font-size: 50px;
+}
+.conF{
+	background: rgba(255, 255, 255, 0.3);
+	width: 40%;
+	height: 500px;
+	position: relative;
+	margin-top: 120px;
+	left: 30%;
+	border-radius: 15px;
+
+}
+#img{
+	text-align: center;
+	margin-top: 0px;
+	left: 0%;
+}
+
+#upcon{
+	position: relative;
+	left: 15%;
+	margin-top: 40px;
+}
+img{
+	width: 70px;
+	height: 70px;
+}
+
+
+.con{
+	position: relative;
+	margin-top: 100px;
+	color: #FFF;
+	font-size: 25px;
+}
+
+.scon{
+	position: relative;
+	left: 2%;
+}
+#lgbut{
+	margin-top: 8%;
+	margin-left: 15%;
+}
+input[type=button]{
+	border-radius: 10px;
+	padding: 0.2em 1.3em;
+	font-family: cursive;
+	color: white;
+	border-color: transparent;
+	background: linear-gradient(135deg,
+		rgba(0,0,0,0.3), rgba(255, 255, 255, 0.4));
+}
+input[type=button]:hover{
+	box-shadow: 1px 5px 15px grey;
+	font-size: 17px;
+	cursor: pointer;
+	color: #DDD;
+}
+
+#rform{
+	font-size: 30px;
+}
+.info {
+	font-size: 15px;
+	color: #F66;
+	margin-top: 5%;
+	margin-left: 15%;
+}
+.header{
+
+			display: inline-block;
+			width: 100%;
+			position: relative;
+			border-bottom: 1px solid white;
+
+
+}
+.header div img{
+	width: 220px;
+	height: 180px;
+	float: right;
+	margin-right: 20px;
+}
+.cwel{
+	float: left;
+	position: absolute;
+	top: 50%;
+}
+
+.wel{
+	float: left;
+	margin-right: 20px;
+
+
+}

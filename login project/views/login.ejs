@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+      <link rel="stylesheet" type="text/css" href="assets/style.css">
+    	<script type="text/javascript" src="/assets/jquery-3.5.1.min.js"></script>
+      <script type="text/javascript" src="/assets/script.js"></script>
+    </head>
+    <body>
+      <div class="conF">
+        <div class="con">
+    			<form>
+    				<div id="img" class="scon">
+    					<img src="/assets/123.png">
+    				</div>
+
+    				<div class="scon" id="upcon">
+    				<label>Username:</label>
+    				<input type="text" name="" class="field" id="usern" placeholder="Username">
+    				<br><br>
+    				<label>Password:</label>
+    				<input type="password" class="field"  id="passw" name="" placeholder="Password">
+    				</div>
+            <div class="info">
+              <%= info.status %>
+            </div>
+    				<div id="lgbut">
+              <!-- <a><input type="button" id="tbut" value="Test" name=""></a> -->
+    					<a href="http://localhost:4000/details"><input type="button" id="lbut" value="Login" name=""></a>
+    					<a href="http://localhost:4000/signup"><input type="button" id="sbut" style="margin-left: 50%;" value="Sign up" name=""></a>
+    				</div>
+
+    			</form>
+    		</div>
+    	</div>
+    </body>
+    </html>

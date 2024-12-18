@@ -1,0 +1,6 @@
+Name: Oshinbowale Isaac
+School: UI
+Dept: EEE
+Gender: Male
+Religion: Christian
+Level: 300 

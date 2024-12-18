@@ -1,0 +1,31 @@
+body{
+  background:skyblue;
+  color: #FFF;
+  font-size: 25px;
+}
+#ph1{
+  font-size: 40px;
+}
+
+#ch1{
+  font-size: 60px;
+}
+.nli{
+  display: inline-block;
+  margin-left: 10%;
+  padding: 20px;
+  background: white;
+  color: skyblue;
+}
+.nli a{
+  text-decoration: none;
+  color: skyblue;
+}
+.nli a:hover{
+  color: white;
+}
+
+li:hover{
+  color: white;
+  background: skyblue;
+}

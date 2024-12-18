@@ -1,0 +1,16 @@
+{
+  "name": "cbt_nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs based CBT",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CBT",
+    "Exams",
+    "Test"
+  ],
+  "author": "Daramola Oluwafemi Michael",
+  "license": "ISC"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin</title>
+	<style type="text/css">
+		table{
+			border-color: #000;
+		}
+	</style>
+</head>
+<body>
+
+	<table  cellpadding="5px" border="6" link="white">
+
+		<thead>
+
+			<td>S/N</td> <td>Name</td> <td>Username</td> <td>Gender</td> <td>Status</td> <td>Delete</td>
+		</thead>
+    <% num = k.num %>
+		<% let i; %>
+    <% for(i=1;i<num+1;i++){ %>
+        <% let cand = "Admin"+i %>
+		<tr>
+      <% let arr = ["name","username","gender","status"]; %>
+
+
+        <td><%= i %></td>
+
+        <% for(let j=0;j<4;j++){ %>
+
+          <td><%= k.d[cand][arr[j]] %></td>
+
+
+          <% } %>
+
+          <td>
+						<form method="post">
+							<% if(num != 1){ %>
+						<input type="submit" name="button" data-index="<%= i %>" value="<%= i %>">
+
+						<% } %>
+					</form>
+					</td>
+
+		</tr>
+    	<% } %>
+
+
+
+
+	</table>
+
+
+</body>
+</html>

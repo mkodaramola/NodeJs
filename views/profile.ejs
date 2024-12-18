@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/assests/style.css">
+  </head>
+
+  <body>
+
+
+
+    <h1 id="ph1">Profile</h1>
+
+    <%- include ('partials/nav.ejs'); %>
+
+<div>
+
+<b>Name: </b> <%= student[usern].firstName %> <%= student[usern].secondName %> <br><br>
+<b>Gender: </b> <%= student[usern].gender %> <br><br>
+<b>Level: </b> <%= student[usern].level %> <br><br>
+
+<h1>Field of Focus</h1>
+
+<% for(i in student[usern].field){ %>
+
+    <li><%= student[usern].field[i] %></li>
+
+  <% }%>
+
+
+</div>
+
+</body>
+
+</html>

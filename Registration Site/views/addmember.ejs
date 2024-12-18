@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<script type="text/javascript" src="/assets/script.js"></script>
+  <style>
+    body{
+
+    background-color: #444;
+    color: #FFF;
+
+  }
+  h1{
+    text-decoration: underline;
+  }
+
+  </style>
+</head>
+<body>
+	<h1>Add Member</h1><h1 id="succ"></h1>
+
+	<form id="adform" method="post">
+
+    <label>Name: </label><br>
+  <input type="text" name="name" placeholder="Enter Name" id="name" required>
+  <br><br>
+  <label>Username: </label><br>
+<input type="text" name="username" placeholder="Enter  Username" id="username" required>
+<br><br>
+  <label>Password: </label><br>
+  <input type="password" name="password" placeholder="Enter Password" id="password" required>
+  <br><br>
+
+  <label>Confirm Password: </label><br>
+  <input type="password" name="Cpassword" placeholder="Confirm Password" id="Cpassword" required>
+  <br><br>
+
+  <label>Gender: </label><br>
+  <input type="text" name="gender" placeholder="Enter Gender" id="gender">
+  <br><br>
+	<label>Member Status: 	</label><br>
+	<select name = "status">
+
+		<option value="regular" selected="selected">Regular</option>
+		<option value="master">Master</option>
+
+	</select>
+  <br><br>
+<input type="submit" name="" value="Submit"> <br><br>
+
+<span> <%= m.d %> </span>
+	</form>
+
+</body>
+</html>

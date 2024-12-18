@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Page</title>
+  <script type="text/javascript" src="assets/script.js"></script>
+	<style type="text/css">
+		body{
+
+			background: url(assets/f.jpg);
+			color: white;
+
+		}
+		th{
+			font-family: serif;
+		}
+		h2 {
+			text-align: center;
+			color: blue;
+			font-family: cursive;
+			font-size: 70px;
+
+
+		}
+		img.p1{
+			width: 130px;
+			height: 130px;
+
+		}
+		img.p2{
+			width: 120%;
+			height: 130px;
+			margin-right: 300px;
+		}
+		table.t2{
+			text-align: center;
+			background: white;
+			color: purple;
+			border-radius: 8px;
+			border: 7px solid purple;
+		}
+		span.sf{
+			text-align: left;
+
+		}
+		input{
+			border-radius: 5px;
+			text-align: left;
+			width: 320px;
+			height: 20px;
+		}
+		a:link{
+			color: white;
+			text-decoration: none;
+		}
+		a:active{
+			color: purple;
+
+		}
+		a:visited{
+			color: white;
+			text-decoration: none;
+		}
+    #but{
+      width: 60px;
+      height: 30px;
+      background: white;
+      border-color: white;
+      color: purple;
+      padding: 10px;
+       }
+
+
+	</style>
+</head>
+<body>
+<table border="0">
+	<tr>
+		<td>
+			<img class="p1" src="assets/el.png">
+		</td>
+
+		<td>
+			<img class="p2" src="assets/ex.png">
+		</td>
+
+	</tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<table class="t2" align="center">
+
+	<tr>
+		<th>
+			<span style="font-size: 30px;"><u>WELCOME TO EXPERT COMPUTER BASED TEST CENTRE.</u></span>
+			<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<form style="text-align: center;" method="post">
+			<span class="sf">Registration Number:</span><br>
+			<input align="center" id="tbox"  type="text" name="regNo"  placeholder="Enter Registration Number">
+
+			<br>
+
+
+		<table align="center" style="background-color: purple; border: 1px solid purple; border-radius: 5px;">
+			<tr>
+				<td style="color: white;">
+
+					<input  type="submit" id="but" name="" value="Enter">
+
+				</td>
+
+			</tr>
+		</table>
+	</form>
+		</th>
+		<td>
+
+	</tr>
+	<tr>
+		<td>
+			<span style="color: #F00;"><%= msg.msg %></span>
+			<br>
+
+
+					<blockquote style="font-family: cursive; font-size: 20px;">www.expertedu@yahoo.com</blockquote>
+		</td>
+	</tr>
+
+</table>
+</body>
+</html>
